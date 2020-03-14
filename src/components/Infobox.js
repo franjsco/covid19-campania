@@ -6,7 +6,7 @@ const Infobox = (props) => {
 
   return (
     <div>
-      <span className="font-weight-bold">Ultimo aggiornamento dati: </span>
+      <span className="font-weight-bold">Ultimo aggiornamento: </span>
       { dataAggiornamento }
     </div>
   );
