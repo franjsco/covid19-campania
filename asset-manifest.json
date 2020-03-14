@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/covid19-campania/static/css/main.562c9271.chunk.css",
+    "main.js": "/covid19-campania/static/js/main.d7ddf31f.chunk.js",
+    "main.js.map": "/covid19-campania/static/js/main.d7ddf31f.chunk.js.map",
+    "runtime-main.js": "/covid19-campania/static/js/runtime-main.92308f37.js",
+    "runtime-main.js.map": "/covid19-campania/static/js/runtime-main.92308f37.js.map",
+    "static/css/2.de424728.chunk.css": "/covid19-campania/static/css/2.de424728.chunk.css",
+    "static/js/2.29f21e72.chunk.js": "/covid19-campania/static/js/2.29f21e72.chunk.js",
+    "static/js/2.29f21e72.chunk.js.map": "/covid19-campania/static/js/2.29f21e72.chunk.js.map",
+    "index.html": "/covid19-campania/index.html",
+    "precache-manifest.cf0ccac65234b7a6a0e44de29d8fd914.js": "/covid19-campania/precache-manifest.cf0ccac65234b7a6a0e44de29d8fd914.js",
+    "service-worker.js": "/covid19-campania/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/covid19-campania/static/css/2.de424728.chunk.css.map",
+    "static/css/main.562c9271.chunk.css.map": "/covid19-campania/static/css/main.562c9271.chunk.css.map",
+    "static/js/2.29f21e72.chunk.js.LICENSE.txt": "/covid19-campania/static/js/2.29f21e72.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92308f37.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.29f21e72.chunk.js",
+    "static/css/main.562c9271.chunk.css",
+    "static/js/main.d7ddf31f.chunk.js"
+  ]
+}
