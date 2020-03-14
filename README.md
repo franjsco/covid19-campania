@@ -1,5 +1,5 @@
 # covid19-campania
-Semplice dashboard per la consultazione immediata e semplificata dei dati relativi all'emergenza COVID-19 per la Campania.
+Dashboard per la consultazione immediata e semplificata dei dati relativi all'emergenza COVID-19 in Campania.
 
 La dashboard può essere consultata al seguente indirizzo: 
 https://franjsco.github.io/covid19-campania/
