@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/covid19-campania/static/css/main.562c9271.chunk.css",
-    "main.js": "/covid19-campania/static/js/main.d7ddf31f.chunk.js",
-    "main.js.map": "/covid19-campania/static/js/main.d7ddf31f.chunk.js.map",
+    "main.js": "/covid19-campania/static/js/main.ddb07fb7.chunk.js",
+    "main.js.map": "/covid19-campania/static/js/main.ddb07fb7.chunk.js.map",
     "runtime-main.js": "/covid19-campania/static/js/runtime-main.92308f37.js",
     "runtime-main.js.map": "/covid19-campania/static/js/runtime-main.92308f37.js.map",
     "static/css/2.de424728.chunk.css": "/covid19-campania/static/css/2.de424728.chunk.css",
     "static/js/2.29f21e72.chunk.js": "/covid19-campania/static/js/2.29f21e72.chunk.js",
     "static/js/2.29f21e72.chunk.js.map": "/covid19-campania/static/js/2.29f21e72.chunk.js.map",
     "index.html": "/covid19-campania/index.html",
-    "precache-manifest.3f90ca68643919a331873fff70df66f7.js": "/covid19-campania/precache-manifest.3f90ca68643919a331873fff70df66f7.js",
+    "precache-manifest.d8973d30d1d81750b0713524fd24b106.js": "/covid19-campania/precache-manifest.d8973d30d1d81750b0713524fd24b106.js",
     "service-worker.js": "/covid19-campania/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/covid19-campania/static/css/2.de424728.chunk.css.map",
     "static/css/main.562c9271.chunk.css.map": "/covid19-campania/static/css/main.562c9271.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.29f21e72.chunk.js",
     "static/css/main.562c9271.chunk.css",
-    "static/js/main.d7ddf31f.chunk.js"
+    "static/js/main.ddb07fb7.chunk.js"
   ]
 }
