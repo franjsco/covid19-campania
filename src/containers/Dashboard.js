@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import axios from 'axios';
+
+import getDataFromRepository from '../api/DataFromRepository';
 
 import Card from '../components/Card';
 import Infobox from '../components/Infobox';
@@ -11,11 +12,11 @@ class Dashboard extends Component {
     this.state = {};
   }
 
-  componentDidMount() {
-    axios
-      .get('https://openpuglia.org/api/?q=getdatapccovid-19&reg=campania')
-      .then((response) => this.setState(response.data[0]));
+  async componentDidMount() {
+    const data = await getDataFromRepository();
+    this.setState(data);
   }
+
 
   render() {
     const { state } = this;
@@ -37,7 +38,7 @@ class Dashboard extends Component {
             <Card
               bgColor="warning"
               title="Totale casi"
-              value={state['totale casi']}
+              value={state.totale_casi}
             />
           </Col>
 
@@ -53,7 +54,7 @@ class Dashboard extends Component {
             <Card
               bgColor="success"
               title="Guariti"
-              value={state['dimessi guariti']}
+              value={state.dimessi_guariti}
             />
           </Col>
         </Row>
@@ -63,7 +64,7 @@ class Dashboard extends Component {
             <Card
               bgColor="info"
               title="Attualmente positivi"
-              value={state['totale attualmente positivi']}
+              value={state.totale_attualmente_positivi}
             />
           </Col>
 
@@ -71,7 +72,7 @@ class Dashboard extends Component {
             <Card
               bgColor="info"
               title="Nuovi attualmente positivi"
-              value={state['nuovi attualmente positivi']}
+              value={state.nuovi_attualmente_positivi}
             />
           </Col>
 
@@ -89,7 +90,7 @@ class Dashboard extends Component {
             <Card
               textColor="dark"
               title="Totale ospedalizzati"
-              value={state['totale ospedalizzati']}
+              value={state.totale_ospedalizzati}
             />
           </Col>
 
@@ -97,7 +98,7 @@ class Dashboard extends Component {
             <Card
               textColor="dark"
               title="Terapia intensiva"
-              value={state['terapia intensiva']}
+              value={state.terapia_intensiva}
             />
           </Col>
 
@@ -105,7 +106,7 @@ class Dashboard extends Component {
             <Card
               textColor="dark"
               title="Isolamento domiciliare"
-              value={state['isolamento domiciliare']}
+              value={state.isolamento_domiciliare}
             />
           </Col>
         </Row>
