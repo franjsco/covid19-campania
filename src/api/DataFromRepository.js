@@ -18,10 +18,14 @@ const getJsonRegioni = async () => {
 
 
 const getData = async () => {
+  let result;
   const nomeRegione = 'Campania';
-
   const datiRegione = await getJsonRegioni();
-  const result = datiRegione.find((regione) => regione.denominazione_regione === nomeRegione);
+
+
+  if (datiRegione) {
+    result = datiRegione.find((regione) => regione.denominazione_regione === nomeRegione);
+  }
 
   return result;
 };
