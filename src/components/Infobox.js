@@ -7,7 +7,7 @@ const Infobox = (props) => {
   return (
     <div>
       <span className="font-weight-bold">Ultimo aggiornamento: </span>
-      { dataAggiornamento.split(' ')[0] }
+      { dataAggiornamento.split('T')[0] }
     </div>
   );
 };

@@ -64,15 +64,15 @@ class Dashboard extends Component {
             <Card
               bgColor="info"
               title="Attualmente positivi"
-              value={state.totale_attualmente_positivi}
+              value={state.totale_positivi}
             />
           </Col>
 
           <Col xs={12} sm={4}>
             <Card
               bgColor="info"
-              title="Nuovi attualmente positivi"
-              value={state.nuovi_attualmente_positivi}
+              title="Nuovi positivi"
+              value={state.nuovi_positivi}
             />
           </Col>
 
