@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6411b6eb79fa97a86c6e5a0ef6618986",
+    "revision": "ea5d12f9efc7b21d028b7a5b64326819",
     "url": "/covid19-campania/index.html"
   },
   {
-    "revision": "f759ef7dd17d41e40153",
+    "revision": "5845b06f177d7cf0966e",
     "url": "/covid19-campania/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "af133d12c7a193e0aa48",
+    "revision": "a19220180010e6f0e15b",
     "url": "/covid19-campania/static/css/main.562c9271.chunk.css"
   },
   {
-    "revision": "f759ef7dd17d41e40153",
-    "url": "/covid19-campania/static/js/2.8782c765.chunk.js"
+    "revision": "5845b06f177d7cf0966e",
+    "url": "/covid19-campania/static/js/2.7fd25a48.chunk.js"
   },
   {
     "revision": "11a928b57aca5049fe950bf8bcde77c5",
-    "url": "/covid19-campania/static/js/2.8782c765.chunk.js.LICENSE.txt"
+    "url": "/covid19-campania/static/js/2.7fd25a48.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af133d12c7a193e0aa48",
-    "url": "/covid19-campania/static/js/main.f0ccab79.chunk.js"
+    "revision": "a19220180010e6f0e15b",
+    "url": "/covid19-campania/static/js/main.cdfceb1d.chunk.js"
   },
   {
     "revision": "98feadb937f5b153d808",
