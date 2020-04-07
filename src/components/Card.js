@@ -38,7 +38,10 @@ Card.defaultProps = {
 
 Card.propTypes = {
   title: PropTypes.string.isRequired,
-  value: PropTypes.string,
+  value: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]),
   bgColor: PropTypes.string,
   textColor: PropTypes.string,
 };
