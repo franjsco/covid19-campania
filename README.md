@@ -33,6 +33,8 @@ npm run build
 npm install -g serve
 serve -s build
 ```
+Other Solutions: [here](https://create-react-app.dev/docs/deployment/)
+
 
 ## Author
 
